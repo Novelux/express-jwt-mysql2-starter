@@ -1,0 +1,17 @@
+{
+  "port": 3000,
+  "SSL": false,
+  "cors": ["http://localhost:3000"],
+  "db": {
+    "host": "localhost",
+    "user": "test",
+    "password": "",
+    "database": "test",
+    "multipleStatements": true
+  },
+  "memberField": "*",
+  "token": {
+    "secret": "SECRET",
+    "expire": "5m"
+  }
+}
